@@ -33,6 +33,11 @@
                     return;
                 }
             }
+
+            var li = document.createElement("li");
+            var textNode = document.createTextNode(selectedValue);
+            li.appendChild(textNode);
+            ul.appendChild(li);
         }
     
     </script>
